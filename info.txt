@@ -1,0 +1,12 @@
+Ich habe meinen Bachelor of Science im Studiengang Medieninformatik und interaktives Entertainment (Es ging um Videospiele) abgeschlossen im Jahr 2018
+Im Studium lernte ich erste Grundlagen der objektorientierten Programmierung.
+
+Ab Februar 2019 arbeietet ich dann in der Expertplace Solutions GmbH in Leipzig, hier hatte ich erste Berührungspunkte mit Javascript, Knockout.js, Angular und ASP.NET Core.
+
+Um mein Wissen im Bereich der Frontendentwicklung zu festigen, nahm ich ab Januar 2021 an einer dreimonatigen Weiterbildungsreihe mit dem Schwerpunkten Javascript. Node.JS, Vue.JS, React teil,
+welche ich insgesammt mit sehr gut abschließen konnte. Die Trainings liefen über das Schulungsunternehmen Alfatraining.
+
+Von April 2021 bis zum aktuellen Zeitpunkt arbeite ich nun in der Firma Assist Digital in Leipzig als Webentwickler, Schwerpunktmäßig im Bereich Frontend unter Javascript, Typescript, Node.JS, Vue.JS sowie Backendseitig mit SQL und .Net.
+
+Weiterhin habe ich mittleren bis guten Umgang und Kenntnis in SQL.
+

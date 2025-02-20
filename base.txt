@@ -1,0 +1,20 @@
+[Dein Name][Deine Adresse][PLZ, Stadt][E-Mail-Adresse][Telefonnummer][Datum]
+
+Betreff: Bewerbung als Webentwickler
+
+Sehr geehrte Damen und Herren,
+
+auf der Suche nach neuen beruflichen Herausforderungen bewerbe ich mich als Webentwickler und bringe fundierte Kenntnisse in der Frontend- und Backend-Entwicklung mit. Mein beruflicher Werdegang vereint technisches Know-how mit analytischem Denken und einer lösungsorientierten Arbeitsweise.
+
+Nach meinem Bachelor of Science im Studiengang Medieninformatik und Interaktives Entertainment im Jahr 2018 konnte ich erste praktische Erfahrungen in der objektorientierten Programmierung sammeln. Anfang 2019 begann ich meine berufliche Laufbahn bei der Expertplace Solutions GmbH in Leipzig, wo ich erste Berührungspunkte mit JavaScript, Knockout.js, Angular und ASP.NET Core hatte.
+
+Um meine Kenntnisse in der modernen Frontend-Entwicklung weiter zu vertiefen, absolvierte ich Anfang 2021 eine dreimonatige Weiterbildung mit den Schwerpunkten JavaScript, Node.js, Vue.js und React beim Schulungsanbieter Alfatraining, welche ich mit sehr guten Ergebnissen abschloss.
+
+Seit April 2021 bin ich bei Assist Digital in Leipzig als Webentwickler tätig, wo ich mich hauptsächlich auf die Entwicklung mit JavaScript, TypeScript, Node.js und Vue.js fokussiere. Darüber hinaus verfüge ich über Erfahrung in der Backend-Entwicklung mit SQL und .NET.
+
+Neben meiner technischen Expertise zeichnet mich eine analytische und lösungsorientierte Denkweise aus. Ich betrachte Herausforderungen gerne aus unterschiedlichen Perspektiven und arbeite teamorientiert sowie kommunikativ.
+
+Gern bringe ich meine Fähigkeiten und Erfahrungen in Ihr Unternehmen ein. Über eine Einladung zu einem persönlichen Gespräch freue ich mich sehr.
+
+Mit freundlichen Grüßen[Dein Name]
+

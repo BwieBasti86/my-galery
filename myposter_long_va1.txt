@@ -1,0 +1,20 @@
+[Dein Name][Deine Adresse][PLZ, Stadt][E-Mail-Adresse][Telefonnummer][Datum]
+
+MYPOSTER GmbH[Adresse des Unternehmens][PLZ, Stadt]
+
+Betreff: Bewerbung als Web Frontend Entwickler (Vue.js) (m/w/d)
+
+Sehr geehrte Damen und Herren,
+
+auf der Suche nach neuen beruflichen Herausforderungen bin ich auf Ihre Stellenausschreibung gestoßen – und sie hat mich sofort angesprochen! Als erfahrener Webentwickler mit einem Fokus auf moderne Frontend-Technologien wie Vue.js, JavaScript und TypeScript sehe ich in dieser Position die perfekte Möglichkeit, meine Fähigkeiten in einem innovativen Umfeld einzusetzen und weiterzuentwickeln.
+
+Nach meinem Bachelor of Science im Studiengang Medieninformatik und Interaktives Entertainment im Jahr 2018 habe ich meine Leidenschaft für Webentwicklung vertieft. Seit 2019 arbeite ich als Webentwickler, wobei ich umfassende Erfahrungen mit JavaScript, Vue.js, React, Node.js und .NET sammeln konnte. Besonders begeistert mich die Entwicklung nutzerfreundlicher und performanter Webanwendungen, wobei ich großen Wert auf sauberen Code, nachhaltige Architekturen und eine optimale User Experience lege.
+
+Der Tech-Stack von MYPOSTER und die Herausforderungen im Bereich Server Side Rendering, Responsive Webdesign und Page Speed Optimierung decken sich ideal mit meinen bisherigen Tätigkeiten. In meiner aktuellen Position bin ich verantwortlich für die Entwicklung und Optimierung komplexer Frontend-Anwendungen mit Vue.js und unterstütze aktiv bei der Einführung neuer Technologien.
+
+Ich schätze agile Entwicklungsprozesse und den Austausch mit einem motivierten Team. Zudem bringe ich eine analytische und lösungsorientierte Denkweise mit und bin stets offen für neue Technologien und Weiterentwicklungen. Ihr Angebot, regelmäßig an Meetups und Konferenzen teilzunehmen, spricht mich besonders an, da ich großen Wert auf kontinuierliches Lernen lege.
+
+Gern möchte ich mein Wissen und meine Begeisterung für moderne Webentwicklung bei MYPOSTER einbringen. Über eine Einladung zu einem persönlichen Gespräch freue ich mich sehr.
+
+Mit freundlichen Grüßen[Dein Name]
+
