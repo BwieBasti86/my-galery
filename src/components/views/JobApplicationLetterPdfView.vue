@@ -105,20 +105,17 @@
           </template>
           <v-card>
             <v-toolbar dark color="primary">
-              <v-btn icon dark @click="dialog = false">
-                <v-icon>mdi-close</v-icon>
-              </v-btn>
-              <v-toolbar-title>Settings</v-toolbar-title>
+              <v-toolbar-title>Einstellungen</v-toolbar-title>
               <v-spacer></v-spacer>
               <v-toolbar-items>
                 <v-btn dark text @click="dialog = false">
-                  Save
+                  <v-icon>mdi-close</v-icon>
                 </v-btn>
               </v-toolbar-items>
             </v-toolbar>
 
             <v-list three-line subheader>
-              <v-subheader>User Controls</v-subheader>
+              <!-- <v-subheader>Einstellungen</v-subheader> -->
               <v-list-item>
                 <v-list-item-content>
                   <v-select
@@ -131,6 +128,26 @@
                 </v-list-item-content>
               </v-list-item>
             </v-list>
+            <v-list-item>
+              <v-list-item-content>
+                <v-expansion-panels flat v-model="panel">
+                  <v-expansion-panel>
+                    <v-expansion-panel-header
+                      >Aktuelle Anschreiben bearbeiten</v-expansion-panel-header
+                    >
+                    <v-expansion-panel-content>
+                      <JobApplicationEditorComponent
+                        :keyEditable="false"
+                        :companyProfileInput="
+                          Object.assign(currentJobAdd, { companyId: current })
+                        "
+                        @on-company-profile="saveProfile($event)"
+                      />
+                    </v-expansion-panel-content>
+                  </v-expansion-panel>
+                </v-expansion-panels>
+              </v-list-item-content>
+            </v-list-item>
             <v-list-item>
               <v-list-item-content>
                 <v-btn @click="generatePDF()">PDF-Downloaden</v-btn>
@@ -209,14 +226,17 @@ import ApplicationReceiverInfoCard from "../ApplicationReceiverInfoCard.vue";
 import { jsPDF } from "jspdf";
 import html2canvas from "html2canvas";
 import moment from "moment";
+import JobApplicationEditorComponent from "../JobApplicationEditorComponent.vue";
 export default {
   components: {
     CareerInfoCard,
     ApplicationReceiverInfoCard,
+    JobApplicationEditorComponent,
   },
   data: () => ({
     current: undefined,
     dialog: false,
+    panel: [0],
     randomInt: 0,
     today: moment(new Date()).format("YYYY-MM-DD"),
     bannerIndex: 3,
@@ -227,7 +247,6 @@ export default {
       text: `Zum Pdf-Download hier bestätigen`,
       color: "primary",
       callback: () => {
-      
         this.generatePDF();
       },
     });
@@ -254,6 +273,25 @@ export default {
 
         pdf.save(fileName);
       });
+    },
+    async saveProfile(companyProfile) {
+      console.log(companyProfile);
+      this.$root.loading({
+        active: true,
+        message: "Neues Anschreiben wird angelegt",
+      });
+      const url = "http://localhost:3000/addCompanyProfile";
+      const options = {
+        method: "POST",
+        body: JSON.stringify(
+          Object.assign(companyProfile, {
+            filePath: this.config.configLocation,
+          })
+        ),
+        headers: { "Content-Type": "application/json" },
+      };
+      await fetch(url, options);
+      this.$root.loading({ active: false, message: null });
     },
   },
   computed: {
@@ -313,6 +351,9 @@ export default {
     },
     sig() {
       return window.location.origin + "/" + this.$root.config.personInfo.sig;
+    },
+    config() {
+      return this.$root.config;
     },
   },
   filters: {

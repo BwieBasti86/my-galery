@@ -47,6 +47,28 @@
           v-model="contactPerson"
         />
       </v-col>
+      <v-col>
+        <v-menu
+          v-model="datepickerMenu"
+          :close-on-content-click="false"
+          max-width="290"
+        >
+          <template v-slot:activator="{ on, attrs }">
+            <v-text-field
+              :value="formattedApplicationDate"
+              clearable
+              label="Datum der Bewerbung (Optional)"
+              v-bind="attrs"
+              v-on="on"
+              @click:clear="companyProfile.applicationDate = null"
+            ></v-text-field>
+          </template>
+          <v-date-picker
+            v-model="companyProfile.applicationDate"
+            @change="datepickerMenu = false"
+          ></v-date-picker>
+        </v-menu>
+      </v-col>
     </v-row>
     <v-divider />
     <h4 class="pt-15">Anschreiben</h4>
@@ -91,14 +113,15 @@
   </v-container>
 </template>
 <script>
+import moment from "moment";
 export default {
   components: {},
   props: {
     companyProfileInput: Object,
-    keyEditable:{
-      type:Boolean,
-      default:true,
-    }
+    keyEditable: {
+      type: Boolean,
+      default: true,
+    },
   },
   watch: {
     companyProfileInput(newVal) {
@@ -113,13 +136,17 @@ export default {
         (this.companyProfile.jobdescription = newVal.jobdescription),
         (this.companyProfile.applicationHeader = newVal.applicationHeader),
         (this.companyProfile.applicationLetter = newVal.applicationLetter);
-        (this.companyProfile.created = newVal.created),
+      (this.companyProfile.created = newVal.created),
         (this.companyProfile.updated = newVal.updated);
+      this.companyProfile.applicationDate =
+        newVal.applicationDate ? newVal.applicationDate : undefined;
     },
   },
   data: () => ({
     file: undefined,
     contactPerson: "",
+
+    datepickerMenu: false,
     companyProfile: {
       companyId: "",
       company: "",
@@ -136,7 +163,8 @@ export default {
       succeeded: false,
       current: false,
       created: undefined,
-      updated: undefined
+      updated: undefined,
+      applicationDate: undefined,
     },
     loadingTest: false,
   }),
@@ -155,6 +183,7 @@ export default {
         (this.companyProfile.applicationLetter = this.companyProfileInput.applicationLetter),
         (this.companyProfile.created = this.companyProfileInput.created),
         (this.companyProfile.updated = this.companyProfileInput.updated);
+      this.companyProfile.applicationDate = this.companyProfileInput.applicationDate ? this.companyProfileInput.applicationDate : undefined;
     }
   },
   methods: {
@@ -162,7 +191,12 @@ export default {
       console.log(e);
     },
     emitProfile() {
-      this.$emit("on-company-profile", this.companyProfile);
+      const result = this.applicationDate
+        ? Object.assign(this.companyProfile, {
+            applicationDate: this.applicationDate,
+          })
+        : this.companyProfile;
+      this.$emit("on-company-profile", result);
     },
   },
   computed: {
@@ -180,6 +214,13 @@ export default {
       }
 
       return result;
+    },
+    formattedApplicationDate() {
+      return this.companyProfile.applicationDate
+        ? moment(this.companyProfile.applicationDate)
+            .locale("de")
+            .format("LL")
+        : undefined;
     },
     config() {
       return this.$root.config;

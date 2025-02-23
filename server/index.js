@@ -41,6 +41,9 @@ app.post("/addCompanyProfile", (req, res) => {
     if (!jsonData.jobApplicationData.companies) {
       jsonData.jobApplicationData.companies = {};
     }
+    if (!jsonData.jobApplicationData.companies[req.body.companyId]) {
+      jsonData.jobApplicationData.companies[req.body.companyId] = {};
+    }
     jsonData.jobApplicationData.companies[req.body.companyId] = {
       company: req.body.company,
       subinfo: req.body.subinfo,
@@ -57,6 +60,11 @@ app.post("/addCompanyProfile", (req, res) => {
       created: req.body.created ? jsonData.jobApplicationData.companies[req.body.companyId].created : new Date().toISOString(),
       updated: new Date().toISOString(),
     };
+    if (req.body.applicationDate) {
+      jsonData.jobApplicationData.companies[
+        req.body.companyId
+      ].applicationDate = req.body.applicationDate;
+    }
 
     if (req.body.current) {
       jsonData.jobApplicationData.current = req.body.companyId;
@@ -100,15 +108,14 @@ app.post("/deleteCompanyProfile", (req, res) => {
     }
 
     // JSON durchlaufen und Property hinzufügen, falls sie fehlt
-    if(jsonData.jobApplicationData.companies[req.body.companyId]){
-      let result = {}
+    if (jsonData.jobApplicationData.companies[req.body.companyId]) {
+      let result = {};
       let companies = jsonData.jobApplicationData.companies;
-      Object.keys(companies).forEach(company=>{
-        if(company !== req.body.companyId){
-          Object.assign(result,{[company]:companies[company]})
+      Object.keys(companies).forEach((company) => {
+        if (company !== req.body.companyId) {
+          Object.assign(result, { [company]: companies[company] });
         }
-        
-      })
+      });
       jsonData.jobApplicationData.companies = result;
     }
 

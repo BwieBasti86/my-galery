@@ -4,7 +4,9 @@ node_modules
 public/config copy.json
 public/config_bak.json
 public/config_bak2.json
+public/config_bak2 copy.json
 public/config_orig.json
+public/config_dummy.json
 public/images
 public/vita
 

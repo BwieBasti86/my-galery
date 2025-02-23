@@ -69,6 +69,14 @@
             > -->
             <v-tooltip bottom>
               <template v-slot:activator="{ on, attrs }">
+                <v-icon @click="handleCopyClick(item)" v-bind="attrs" v-on="on"
+                  >mdi-content-copy</v-icon
+                >
+              </template>
+              <span>{{ item.companyId }} kopieren</span>
+            </v-tooltip>
+            <v-tooltip bottom>
+              <template v-slot:activator="{ on, attrs }">
                 <v-icon
                   @click="handleDeleteClick(item)"
                   v-bind="attrs"
@@ -168,6 +176,23 @@ export default {
   },
 
   methods: {
+    async handleCopyClick(item) {
+      this.$root.toast({
+        text: `Soll wirklich eine Kopie von ${item.companyId} erstellt werden?`,
+        color: "primary",
+        callback: async () => {
+          const keyorigin = item.companyId;
+          let copyKey = `${keyorigin}_copy${count}`;
+          let count = 0;
+          do {
+            count++;
+            copyKey = `${keyorigin}_copy${count}`;
+          } while (this.companyKeys.includes(copyKey));
+          item.companyId = copyKey;
+          await this.saveProfile(item, true);
+        },
+      });
+    },
     handleDeleteClick(item) {
       this.$root.toast({
         text: `Soll der Eintrag für "${item.company}" wirklich gelöscht werden? `,
@@ -236,10 +261,13 @@ export default {
 
       this.$root.loading({ active: false, message: null });
     },
-    async saveProfile(item) {
+    async saveProfile(item, isCopy) {
       this.$root.loading({
         active: true,
-        message: "Änderungen werden gespeichern: " + item.company,
+        message:
+          `${
+            isCopy ? "Erstelle Kopie von: " : "Änderungen werden gespeichert: "
+          }` + item.company,
       });
       const url = "http://localhost:3000/addCompanyProfile";
       const options = {
@@ -258,6 +286,10 @@ export default {
   computed: {
     moment() {
       return moment();
+    },
+    companyKeys() {
+      const comps = this.$root.config.jobApplicationData.companies;
+      return Object.keys(comps);
     },
     companies() {
       const comps = this.$root.config.jobApplicationData.companies;
