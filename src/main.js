@@ -2,6 +2,7 @@ import Vue from "vue";
 import App from "./App.vue";
 import vuetify from "./plugins/vuetify";
 import router from "./router.js";
+import api from "./services/rest/index.js";
 
 Vue.config.productionTip = false;
 
@@ -16,8 +17,9 @@ new Vue({
       toasterOptions: undefined,
     };
   },
-  mounted() {
-    this.getConfig();
+ async mounted() {
+    await this.getConfig();
+    api.init({configLocation:this.config.configLocation})
     this.$on("toast", (options) => {
       console.log("toast", options);
       this.toasterOptions = options;

@@ -126,6 +126,7 @@
 
 <script>
 import JobApplicationEditorComponent from "./JobApplicationEditorComponent.vue";
+import api from "../services/rest";
 import moment from "moment";
 export default {
   components: { JobApplicationEditorComponent },
@@ -179,23 +180,26 @@ export default {
     async handleCopyClick(item) {
       this.$root.toast({
         text: `Soll wirklich eine Kopie von ${item.companyId} erstellt werden?`,
-        color: "primary",
+        color: "error",
         callback: async () => {
-          const keyorigin = item.companyId;
-          let copyKey = `${keyorigin}_copy${count}`;
-          let count = 0;
-          do {
-            count++;
-            copyKey = `${keyorigin}_copy${count}`;
-          } while (this.companyKeys.includes(copyKey));
-          item.companyId = copyKey;
-          await this.saveProfile(item, true);
+          await this.saveProfileCopy(item);
         },
       });
     },
+    async saveProfileCopy(item) {
+      const keyorigin = item.companyId;
+      let copyKey = `${keyorigin}_copy${count}`;
+      let count = 0;
+      do {
+        count++;
+        copyKey = `${keyorigin}_copy${count}`;
+      } while (this.companyKeys.includes(copyKey));
+      item.companyId = copyKey;
+      await this.saveProfile(item, true);
+    },
     handleDeleteClick(item) {
       this.$root.toast({
-        text: `Soll der Eintrag für "${item.company}" wirklich gelöscht werden? `,
+        text: `Soll der Eintrag für "${item.companyId}" wirklich gelöscht werden? `,
         color: "error",
         callback: () => this.deleteProfile(item),
       });
@@ -226,18 +230,8 @@ export default {
         active: true,
         message: "Setze aktuelles Anschreiben: " + item.company,
       });
-      const url = "http://localhost:3000/current";
-      const options = {
-        method: "POST",
-        body: JSON.stringify({
-          filePath: this.config.configLocation,
-          current: item.companyId,
-        }),
-        headers: { "Content-Type": "application/json" },
-      };
-      if (item.current) {
-        await fetch(url, options);
-      }
+
+      await api.updateCurrent(item.companyId)
 
       this.$root.loading({ active: false, message: null });
     },
@@ -247,17 +241,7 @@ export default {
         active: true,
         message: "Lösche Anschreiben: " + item.company,
       });
-      const url = "http://localhost:3000/deleteCompanyProfile";
-      const options = {
-        method: "POST",
-        body: JSON.stringify({
-          filePath: this.config.configLocation,
-          companyId: item.companyId,
-        }),
-        headers: { "Content-Type": "application/json" },
-      };
-
-      await fetch(url, options);
+      await api.deleteProfile(item.companyId)
 
       this.$root.loading({ active: false, message: null });
     },
@@ -269,17 +253,7 @@ export default {
             isCopy ? "Erstelle Kopie von: " : "Änderungen werden gespeichert: "
           }` + item.company,
       });
-      const url = "http://localhost:3000/addCompanyProfile";
-      const options = {
-        method: "POST",
-        body: JSON.stringify(
-          Object.assign(item, {
-            filePath: this.config.configLocation,
-          })
-        ),
-        headers: { "Content-Type": "application/json" },
-      };
-      await fetch(url, options);
+      await api.saveProfile(item)
       this.$root.loading({ active: false, message: null });
     },
   },

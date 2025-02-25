@@ -57,7 +57,7 @@ app.post("/addCompanyProfile", (req, res) => {
       applicationLetter: req.body.applicationLetter,
       applied: false,
       succeeded: false,
-      created: req.body.created ? jsonData.jobApplicationData.companies[req.body.companyId].created : new Date().toISOString(),
+      created: req.body.created ? jsonData.jobApplicationData.companies[req.body.companyId].created ? jsonData.jobApplicationData.companies[req.body.companyId].created : new Date().toISOString() : new Date().toISOString(),
       updated: new Date().toISOString(),
     };
     if (req.body.applicationDate) {
