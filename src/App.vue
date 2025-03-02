@@ -95,7 +95,7 @@
     </v-app-bar>
 
     <v-main>
-      <v-progress-linear
+      <!-- <v-progress-linear
         v-if="loading.active"
         class="text-center"
         height="16"
@@ -105,7 +105,8 @@
         <template>
           <small style="color:white">{{ loading.message }}</small>
         </template></v-progress-linear
-      >
+      > -->
+
       <router-view />
     </v-main>
     <modal
@@ -116,7 +117,19 @@
         textContent: route.meta.info,
       }"
     />
-    <Toaster :toasterOptions="$root.toasterOptions"/>
+    <Toaster :toasterOptions="$root.toasterOptions" />
+    <v-overlay style="z-index: 9999;" :value="loading.active">
+        <v-progress-linear
+          class="text-center"
+          height="16"
+          fixed
+          indeterminate
+        >
+          <template>
+            <small style="color:white">{{ loading.message }}</small>
+          </template></v-progress-linear
+        ></v-overlay
+      >
   </v-app>
   <!-- <v-app id="inspire">
     <v-card height="400" width="256" class="mx-auto">
@@ -164,7 +177,7 @@ import Toaster from "./components/Toaster.vue";
 export default {
   name: "App",
 
-  components: { Modal,Toaster },
+  components: { Modal, Toaster },
   data: () => ({
     drawer: null,
     currentSecDesc: "Sebastian Jacob",
@@ -173,7 +186,6 @@ export default {
       active: false,
       message: null,
     },
-   
   }),
   // const dummyToasts = [
   //     {
@@ -184,8 +196,15 @@ export default {
   //     },
   mounted() {
     this.$root.$on("loading-event", (e) => {
-      this.loading.active = e.active;
-      this.loading.message = e.message;
+      if (!e.active) {
+        setTimeout(() => {
+          this.loading.active = e.active;
+          this.loading.message = e.message;
+        }, 2000);
+      } else {
+        this.loading.active = e.active;
+        this.loading.message = e.message;
+      }
     });
 
     console.log(this.$routes);

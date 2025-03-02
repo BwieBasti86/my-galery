@@ -226,35 +226,25 @@ export default {
       this.dialog.active = true;
     },
     async updateCurrent(item) {
-      this.$root.loading({
-        active: true,
+      this.$root.proccess({
+        callback: api.updateCurrent(item.companyId),
         message: "Setze aktuelles Anschreiben: " + item.company,
       });
-
-      await api.updateCurrent(item.companyId)
-
-      this.$root.loading({ active: false, message: null });
     },
     async deleteProfile(item) {
-      console.log(item);
-      this.$root.loading({
-        active: true,
+      this.$root.proccess({
+        callback: api.deleteProfile(item.companyId),
         message: "Lösche Anschreiben: " + item.company,
       });
-      await api.deleteProfile(item.companyId)
-
-      this.$root.loading({ active: false, message: null });
     },
     async saveProfile(item, isCopy) {
-      this.$root.loading({
-        active: true,
+      this.$root.proccess({
+        callback: api.saveProfile(item),
         message:
           `${
             isCopy ? "Erstelle Kopie von: " : "Änderungen werden gespeichert: "
           }` + item.company,
       });
-      await api.saveProfile(item)
-      this.$root.loading({ active: false, message: null });
     },
   },
   computed: {

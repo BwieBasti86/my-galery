@@ -227,6 +227,8 @@ import { jsPDF } from "jspdf";
 import html2canvas from "html2canvas";
 import moment from "moment";
 import JobApplicationEditorComponent from "../JobApplicationEditorComponent.vue";
+import api from "../../services/rest";
+
 export default {
   components: {
     CareerInfoCard,
@@ -275,23 +277,10 @@ export default {
       });
     },
     async saveProfile(companyProfile) {
-      console.log(companyProfile);
-      this.$root.loading({
-        active: true,
-        message: "Neues Anschreiben wird angelegt",
+      this.$root.proccess({
+        callback: api.saveProfile(companyProfile),
+        message: "Änderungen werden gespeichert",
       });
-      const url = "http://localhost:3000/addCompanyProfile";
-      const options = {
-        method: "POST",
-        body: JSON.stringify(
-          Object.assign(companyProfile, {
-            filePath: this.config.configLocation,
-          })
-        ),
-        headers: { "Content-Type": "application/json" },
-      };
-      await fetch(url, options);
-      this.$root.loading({ active: false, message: null });
     },
   },
   computed: {

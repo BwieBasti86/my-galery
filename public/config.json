@@ -1,0 +1,920 @@
+{
+  "configLocation": "F:\\privat\\Privat\\myGalerie\\my-gallery-app\\public\\config.json",
+  "navLinks": [
+    2,
+    3,
+    6,
+    7
+  ],
+  "galleryImagePath": "/images/gallery/",
+  "colors": [
+    "cyan",
+    "green",
+    "purple",
+    "blue",
+    "amber",
+    "orange",
+    "aqua",
+    "pink",
+    "coral"
+  ],
+  "galleryImages": [
+    {
+      "sources": [
+        "images/gallery/20211109160521_IMG_4466.jpg"
+      ],
+      "title": "Herbstrot",
+      "categorys": [
+        "macro",
+        "nature",
+        "plants",
+        "aesthetic"
+      ],
+      "location": "Leipzig",
+      "keywords": [
+        "autumn",
+        "herbst",
+        "blatt",
+        "blätter",
+        "Laub",
+        "rot",
+        "vegetation"
+      ]
+    },
+    {
+      "sources": [
+        "images/gallery/IMG_20210830_220739_355.jpg"
+      ],
+      "title": "Sommerrot",
+      "categorys": [
+        "macro",
+        "nature",
+        "plants"
+      ],
+      "location": "Leipzig",
+      "keywords": [
+        "Summer",
+        "Sommer",
+        "Blüte",
+        "Flower",
+        "Blume",
+        "rot",
+        "vegetation",
+        "Makro",
+        "Macro"
+      ]
+    },
+    {
+      "sources": [
+        "images/gallery/IMG_20210831_122658_038.jpg"
+      ],
+      "title": "hornet horror",
+      "categorys": [
+        "macro",
+        "nature",
+        "insects"
+      ],
+      "location": "Leipzig",
+      "keywords": [
+        "Summer",
+        "Sommer",
+        "Blüte",
+        "Flower",
+        "Blume",
+        "rot",
+        "vegetation",
+        "Makro",
+        "Macro"
+      ]
+    },
+    {
+      "sources": [
+        "images/gallery/IMG_20210806_205216.jpg"
+      ],
+      "title": "come closer",
+      "categorys": [
+        "macro",
+        "nature",
+        "insects"
+      ],
+      "location": "Leipzig",
+      "keywords": [
+        "Summer",
+        "Sommer",
+        "Blüte",
+        "Flower",
+        "Blume",
+        "rot",
+        "vegetation",
+        "Makro",
+        "Macro"
+      ]
+    },
+    {
+      "sources": [
+        "images/gallery/IMG_20210830_220739_376.jpg",
+        "images/gallery/20210919190500_IMG_1208.jpg"
+      ],
+      "title": "Übergang",
+      "categorys": [
+        "macro",
+        "nature",
+        "plants",
+        "aesthetic"
+      ],
+      "location": "Leipzig",
+      "keywords": [
+        "Summer",
+        "Sommer",
+        "vegetation",
+        "Makro",
+        "Macro"
+      ]
+    },
+    {
+      "sources": [
+        "images/gallery/IMG_20210830_220739_403.jpg"
+      ],
+      "title": "FlyBy",
+      "categorys": [
+        "macro",
+        "nature",
+        "plants",
+        "insects",
+        "aesthetic"
+      ],
+      "location": "Leipzig",
+      "keywords": [
+        "Summer",
+        "Sommer",
+        "vegetation",
+        "animals",
+        "Fliege",
+        "Insekt",
+        "Makro",
+        "Macro"
+      ]
+    },
+    {
+      "sources": [
+        "images/gallery/IMG_20210830_220739_412.jpg"
+      ],
+      "title": "Wechselgelb",
+      "location": "Leipzig",
+      "categorys": [
+        "macro",
+        "nature",
+        "plants",
+        "aesthetic"
+      ],
+      "keywords": [
+        "Summer",
+        "Sommer",
+        "vegetation",
+        "Makro",
+        "Macro"
+      ]
+    },
+    {
+      "sources": [
+        "images/gallery/IMG_20210903_202255_883.jpg"
+      ],
+      "title": "Kranichliebe",
+      "location": "Leipzig",
+      "categorys": [
+        "nature",
+        "birds"
+      ],
+      "keywords": [
+        "Summer",
+        "Sommer",
+        "vegetation",
+        "Makro",
+        "Macro"
+      ]
+    },
+    {
+      "sources": [
+        "images/gallery/IMG_20210815_203447_385.jpg",
+        "images/gallery/IMG_20210815_201945.jpg"
+      ],
+      "title": "Eichhörnchen",
+      "location": "Leipzig",
+      "categorys": [
+        "nature",
+        "wildlife"
+      ],
+      "keywords": [
+        "Summer",
+        "Sommer",
+        "vegetation",
+        "Makro",
+        "Macro"
+      ]
+    },
+    {
+      "sources": [
+        "images/gallery/IMG_20210801_200825_365.jpg",
+        "images/gallery/IMG_20210801_200825_383.jpg"
+      ],
+      "title": "Früher Vogel",
+      "location": "Leipzig",
+      "categorys": [
+        "nature",
+        "birds"
+      ],
+      "keywords": [
+        "Summer",
+        "Sommer",
+        "vegetation",
+        "Makro",
+        "Macro"
+      ]
+    },
+    {
+      "sources": [
+        "images/gallery/IMG_20210926_151512_795.jpg",
+        "images/gallery/IMG_20210926_151512_842.jpg"
+      ],
+      "title": "Hide and Seek",
+      "location": "Leipzig",
+      "categorys": [
+        "nature",
+        "wildlife"
+      ],
+      "keywords": [
+        "Summer",
+        "Sommer",
+        "vegetation",
+        "Makro",
+        "Macro"
+      ]
+    },
+    {
+      "sources": [
+        "images/gallery/20210719173817_IMG_6696.jpg",
+        "images/gallery/20210719171015_IMG_6632.jpg"
+      ],
+      "title": "Rufus",
+      "location": "Geithain",
+      "categorys": [
+        "nature",
+        "pets"
+      ],
+      "keywords": [
+        "Summer",
+        "Sommer",
+        "vegetation",
+        "Makro",
+        "Macro"
+      ]
+    },
+    {
+      "sources": [
+        "images/gallery/20210719180412_IMG_6910.jpg",
+        "images/gallery/20210719181626_IMG_6978.jpg",
+        "images/gallery/20210719180430_IMG_6920.jpg",
+        "images/gallery/20210719174639_IMG_6800.jpg",
+        "images/gallery/20210719174801_IMG_6813.jpg"
+      ],
+      "title": "Eileen",
+      "location": "Geithain",
+      "categorys": [
+        "nature",
+        "pets"
+      ],
+      "keywords": [
+        "Summer",
+        "Sommer",
+        "vegetation",
+        "Makro",
+        "Macro"
+      ]
+    },
+    {
+      "sources": [
+        "images/gallery/20210702193502_IMG_5789.jpg",
+        "images/gallery/IMG_20210602_220208_131.jpg",
+        "images/gallery/IMG_20210602_220208_171.jpg"
+      ],
+      "title": "Abendfütterung",
+      "location": "Leipzig",
+      "categorys": [
+        "nature",
+        "wildlife",
+        "birds"
+      ],
+      "keywords": [
+        "Summer",
+        "Sommer",
+        "vegetation",
+        "Makro",
+        "Macro"
+      ]
+    }
+  ],
+  "galleryTabCategorys": [
+    {
+      "name": "Alle",
+      "keys": [
+        "Macro",
+        "Makro"
+      ],
+      "category": "all"
+    },
+    {
+      "name": "Makro",
+      "keys": [
+        "Macro",
+        "Makro"
+      ],
+      "category": "macro"
+    },
+    {
+      "name": "Vögel",
+      "keys": [
+        "Macro",
+        "Makro"
+      ],
+      "category": "birds"
+    },
+    {
+      "name": "Wald und Wiese",
+      "keys": [
+        "Macro",
+        "Makro"
+      ],
+      "category": "wildlife"
+    },
+    {
+      "name": "Haustierfotografie",
+      "keys": [
+        "Macro",
+        "Makro"
+      ],
+      "category": "pets"
+    },
+    {
+      "name": "Insekten",
+      "keys": [
+        "Macro",
+        "Makro"
+      ],
+      "category": "insects"
+    },
+    {
+      "name": "Pflanzen",
+      "keys": [
+        "Macro",
+        "Makro"
+      ],
+      "category": "plants"
+    }
+  ],
+  "careerSteps": [
+    {
+      "id": "0",
+      "title": "Mittelschule",
+      "subtitle": "Realschulabschluss",
+      "type": "school",
+      "institution": "Paul Guenther Schule",
+      "city": "Geithain",
+      "country": "Deutschland",
+      "info": "Schulzeit",
+      "dates": {
+        "from": "1993",
+        "to": "2003"
+      },
+      "disabled": true
+    },
+    {
+      "id": "1",
+      "title": "Technischer Assistent für Informatik",
+      "subtitle": "Technischer Assistent für Informatik",
+      "type": "school",
+      "institution": "AkaTe Ausbilungs-mbH",
+      "city": "Leipzig",
+      "country": "Deutschland",
+      "info": "Ausbilungszeit",
+      "dates": {
+        "from": "2003",
+        "to": "2005"
+      },
+      "disabled": false
+    },
+    {
+      "id": "2",
+      "title": "Findungsphase in verschiedenen Praktika und Maßnahmen",
+      "subtitle": "Diverse Praktika in unterschiedlichen Bereichen",
+      "type": "experience",
+      "institution": "Einzelhandel und Hotelgewerbe",
+      "city": "Sachsen",
+      "country": "Deutschland",
+      "info": "Ausbilungszeit",
+      "dates": {
+        "from": "2005",
+        "to": "2007"
+      },
+      "disabled": true
+    },
+    {
+      "id": "3",
+      "title": "Fachabitur",
+      "subtitle": "Fachoberschulreife Sozialwesen",
+      "type": "school",
+      "institution": "Evangelische Schule für Sozialwesen Luise Höpfner",
+      "city": "Bad Lausick",
+      "country": "Deutschland",
+      "info": "Ausbilungszeit",
+      "dates": {
+        "from": "2007",
+        "to": "2010"
+      },
+      "disabled": false
+    },
+    {
+      "id": "4",
+      "title": "FÖJ",
+      "subtitle": "Freiwilliges ökologisches Jahr",
+      "type": "experience",
+      "institution": "Kinder-, und Jugendbegegnungstätte",
+      "city": "Frohburg",
+      "country": "Deutschland",
+      "info": "Ausbilungszeit",
+      "dates": {
+        "from": "2010",
+        "to": "2011"
+      },
+      "disabled": false
+    },
+    {
+      "id": "5",
+      "title": "Studium Archiktekur",
+      "subtitle": "Schnupperstudium 2.Semester",
+      "type": "school",
+      "institution": "HTWK",
+      "city": "Leipzig",
+      "country": "Deutschland",
+      "info": "Diverses Wissen über Formen und Farben angeeignet",
+      "dates": {
+        "from": "2011",
+        "to": "2012"
+      },
+      "disabled": false
+    },
+    {
+      "id": "6",
+      "title": "Studium Medieninformatik",
+      "subtitle": "Medieninformatik und Interaktives Entertainment",
+      "type": "school",
+      "institution": "Hochschule Mittweida",
+      "city": "Mittweida",
+      "country": "Deutschland",
+      "info": "Lieblingszeit",
+      "dates": {
+        "from": "2012",
+        "to": "2018"
+      },
+      "disabled": false
+    },
+    {
+      "id": "7",
+      "title": "Webentwickler",
+      "subtitle": "Mit Schwerpunkt auf Angular,Typescript,ASP-Net.Core",
+      "type": "work",
+      "institution": "Expertplace Solutions GmbH",
+      "city": "Leipzig",
+      "country": "Deutschland",
+      "info": "Erste Joberfahrungen nach Studium",
+      "dates": {
+        "from": "2019",
+        "to": "2020"
+      },
+      "disabled": false
+    },
+    {
+      "id": "8",
+      "title": "Weiterbildungen JS,NodeJS,Vue,React",
+      "subtitle": "Frontend-, und Webentwicklung",
+      "type": "school",
+      "institution": "Alfatraining GmbH",
+      "city": "Leipzig",
+      "country": "Deutschland",
+      "info": "Javascript,Vue.js,React",
+      "dates": {
+        "from": "2020",
+        "to": "2021"
+      },
+      "disabled": false
+    },
+    {
+      "id": "9",
+      "title": "Webentwickler/Consultant",
+      "subtitle": "Frontend-, und Webentwicklung mit Vue.js,Javascript und Typescript",
+      "type": "work",
+      "institution": "Assist Digital / Converneo GmbH",
+      "city": "Leipzig",
+      "country": "Deutschland",
+      "info": "Javascript,Vue.js,SQL,C#",
+      "dates": {
+        "from": "2021",
+        "to": "Aktuell"
+      },
+      "disabled": false
+    }
+  ],
+  "personInfo": {
+    "profilePic": "vita/me2_2.jpg",
+    "sig": "vita/signum.png",
+    "baseData": {
+      "firstName": "Sebastian",
+      "lastName": "Jacob",
+      "dateOfBirth": "1986-02-27",
+      "city": "Leipzig",
+      "country": "Deutschland",
+      "land": "Sachsen",
+      "adress": "Gersterstraße 5, 04279 Leipzig",
+      "academicTitle": "B.Sc.",
+      "jobTitle": "Webentwickler",
+      "subTitle": "Frontend mit Javascript Typescript und Vue.js",
+      "info": "Ich mag coden und fotografieren...",
+      "phone": "015221051181",
+      "mail": "sebastian.jacob@gmx.ch"
+    },
+    "introduction": {
+      "title": "Sehr geehrte Leserin, sehr geehrter Leser,",
+      "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.\n\n At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "ending": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+    },
+    "spareTime": [
+      {
+        "name": "Fotografie",
+        "icon": "mdi-camera-outline",
+        "color": "blue"
+      },
+      {
+        "name": "Theater",
+        "icon": "mdi-drama-masks",
+        "color": "orange"
+      },
+      {
+        "name": "Natur",
+        "icon": "mdi-sprout-outline",
+        "color": "cyan"
+      },
+      {
+        "name": "Kunst",
+        "icon": "mdi-palette-outline",
+        "color": "crimson"
+      },
+      {
+        "name": "Kaffee",
+        "icon": "mdi-coffee-outline",
+        "color": "green"
+      },
+      {
+        "name": "Gaming",
+        "icon": "mdi-gamepad-variant-outline",
+        "color": "purple"
+      },
+      {
+        "name": "Kino",
+        "icon": "mdi-movie-open-outline",
+        "color": "pink"
+      }
+    ]
+  },
+  "skillCategorys": [
+    {
+      "name": "Frontendentwicklung",
+      "active": true,
+      "subCategorys": [
+        {
+          "name": "JavaScript",
+          "rating": "4.0",
+          "active": true
+        },
+        {
+          "name": "TypeScript",
+          "rating": "3.0",
+          "active": true
+        },
+        {
+          "name": "NodeJS",
+          "rating": "3.0",
+          "active": true
+        },
+        {
+          "name": "Angular",
+          "rating": "3.0",
+          "active": true
+        },
+        {
+          "name": "Vue.js",
+          "rating": "4",
+          "active": true
+        },
+        {
+          "name": "Html 5",
+          "rating": "3",
+          "active": true
+        },
+        {
+          "name": "CSS",
+          "rating": "3.0",
+          "active": true
+        }
+      ]
+    },
+    {
+      "name": "Backendentwicklung",
+      "active": true,
+      "subCategorys": [
+        {
+          "name": "NodeJS",
+          "rating": "3.0",
+          "active": true
+        },
+        {
+          "name": "ASP.Net Core",
+          "rating": "2.5",
+          "active": true
+        },
+        {
+          "name": "MS-SQL",
+          "rating": "3.0",
+          "active": true
+        }
+      ]
+    },
+    {
+      "name": "Grafikdesign",
+      "active": true,
+      "subCategorys": [
+        {
+          "name": "Illustrator",
+          "rating": "3.5",
+          "active": true
+        },
+        {
+          "name": "Photoshop",
+          "rating": "3",
+          "active": true
+        }
+      ]
+    },
+    {
+      "name": "Sprachen",
+      "active": true,
+      "subCategorys": [
+        {
+          "name": "Deutsch",
+          "rating": "5",
+          "active": true
+        },
+        {
+          "name": "Englisch",
+          "rating": "4",
+          "active": true
+        }
+      ]
+    }
+  ],
+  "jobApplicationData": {
+    "companies": {
+      "loremIpsum": {
+        "company": "lorem ipsum",
+        "subinfo": "Corp",
+        "city": "Ipsum City",
+        "street": "Lorem Street 1",
+        "zip": "0815",
+        "phone": "123456789",
+        "mail": "lorem@ipsum.mail",
+        "jobdescription": "loremIpsum Manager",
+        "applicationHeader": "Sehr geehrte Frau Ipsum,",
+        "applicationLetter": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. \nAt vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. \nLorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+        "applied": false,
+        "succeeded": false,
+        "created": "2025-02-17T17:24:10.653Z",
+        "updated": "2025-02-23T23:08:07.641Z"
+      },
+      "MYPOSTER": {
+        "company": "myposter",
+        "subinfo": "GmbH",
+        "city": "Bergkirchen",
+        "street": "Breitenau 7",
+        "zip": "85232",
+        "phone": "08131 99997 319",
+        "mail": "jobs@myposter.de",
+        "jobdescription": "Web Frontend Entwickler",
+        "applicationHeader": "Sehr geehrte Damen und Herren,",
+        "applicationLetter": "als erfahrener Frontend-Entwickler mit Leidenschaft für moderne Webtechnologien begeistert mich Ihre Anzeige, vor allem die Aussicht, in einem agilen Team innovative Features zu entwickeln und spannende Herausforderungen mit Vue.js zu lösen.\nIn meinen bisherigen Projekten habe ich umfassende Erfahrung mit **HTML5, CSS3 und JavaScript (ES6+)** gesammelt, inklusive der Umsetzung responsiver Designs und performanter Webanwendungen. Besonders reizvoll finde ich bei MYPOSTER die Kombination aus technischem Anspruch – wie Server-Side-Rendering, Page-Speed-Optimierung und UX – sowie die Möglichkeit, eigenständig Ideen einzubringen.\nClean Code und nachhaltige Architektur sind mir ebenso wichtig wie ständiges Lernen. Die Aussicht auf Weiterbildungsangebote und spannende Technologien wie Jest, Cypress oder LogRocket decken sich mit meinem Wunsch, mich fachlich weiterzuentwickeln und zur Verbesserung moderner Webanwendungen beizutragen.\nIch freue mich, Ihnen in einem persönlichen Gespräch meine Begeisterung und mein Know-how näherzubringen.",
+        "footer": "Mit freundlichen Grüßen",
+        "applied": false,
+        "succeeded": false,
+        "created": null,
+        "updated": null
+      },
+      "myposter": {
+        "company": "myposter",
+        "subinfo": "GmbH",
+        "city": "Bergkirchen",
+        "street": "Breitenau 7",
+        "zip": "85232",
+        "phone": "08131 99997 319",
+        "mail": "jobs@myposter.de",
+        "jobdescription": "Web Frontend Entwickler",
+        "applicationHeader": "Sehr geehrte Damen und Herren,",
+        "applicationLetter": "auf der Suche nach neuen beruflichen Herausforderungen bin ich auf Ihre Stellenausschreibung gestoßen – und sie hat mich sofort angesprochen! Als erfahrener Webentwickler mit Schwerpunkt Vue.js, JavaScript und TypeScript sehe ich in dieser Position die ideale Möglichkeit, meine Fähigkeiten gezielt einzusetzen und weiterzuentwickeln.\nSeit 2019 arbeite ich als Webentwickler und konnte umfassende Erfahrungen in der Frontend-Entwicklung sammeln. Mein Fokus liegt auf sauberem Code, nachhaltigen Architekturen und einer optimalen User Experience. Besonders spannend finde ich Themen wie Server Side Rendering, Responsive Webdesign und Performance-Optimierung.\nDer Tech-Stack von MYPOSTER und die Entwicklung innovativer Weblösungen entsprechen genau meinen Interessen. Ich arbeite gerne in agilen Teams, bringe meine Ideen aktiv ein und bin stets offen für neue Technologien.\nGern bringe ich meine Erfahrung und Begeisterung in Ihr Unternehmen ein. Über eine Einladung zum Gespräch freue ich mich sehr.",
+        "footer": "Mit freundlichen Grüßen",
+        "applied": true,
+        "succeeded": false,
+        "created": null,
+        "updated": null
+      },
+      "alfaview2": {
+        "company": "alfaview",
+        "subinfo": "GmbH",
+        "city": "Karlsruhe",
+        "street": "Kriegsstraße 100",
+        "zip": "76133",
+        "phone": "+49 721 35450-450",
+        "mail": "info@alfaview.com",
+        "jobdescription": "Frontend Developer",
+        "applicationHeader": "Sehr geehrte Damen und Herren,",
+        "applicationLetter": "als erfahrener Frontend Developer mit über drei Jahren Erfahrung in der Entwicklung datengetriebener Webanwendungen freue ich mich sehr über die Möglichkeit, meine Expertise in JavaScript, Vue und React bei alfaview® einzubringen und an der Weiterentwicklung Ihrer wegweisenden Videokonferenzsoftware mitzuwirken.\nMein technisches Fundament habe ich durch eine umfangreiche Weiterbildung bei der alfatraining GmbH aufgebaut, bei der ich meine Kenntnisse in JavaScript, Vue und React nicht nur vertieft, sondern auch mit ausgezeichnetem Erfolg abgeschlossen habe. Diese intensive Ausbildung hat meinen hohen Anspruch an sauberen Code und nachhaltige Architekturen geprägt.\nIn meinen bisherigen Positionen habe ich responsive Designs mit CSS-Präprozessoren wie SCSS sowie moderne Webanwendungen unter Einsatz von Node.js-Tools (z. B. Webpack) und CI/CD-Praktiken entwickelt. Ich bin es gewohnt, in agilen Teams zu arbeiten und sehe eine abteilungsübergreifende Zusammenarbeit sowie die kontinuierliche Optimierung als wichtige Erfolgsfaktoren an.\nIch freue mich darauf, alfaview® durch meine Fähigkeiten und meinen Einsatz zu unterstützen und Teil eines Teams zu werden, das Innovation und Qualität in den Mittelpunkt stellt. Gerne stehe ich Ihnen für ein persönliches Gespräch zur Verfügung.",
+        "applied": false,
+        "succeeded": false,
+        "created": "2025-02-23T22:07:42.745Z",
+        "updated": "2025-02-23T22:09:35.483Z",
+        "applicationDate": "2024-02-28"
+      },
+      "carusDigital": {
+        "company": "Carus Digital",
+        "subinfo": "GmbH",
+        "city": "Leipzig",
+        "street": "Melscher Straße 1",
+        "zip": "04299",
+        "phone": "+49 40 561 27 812",
+        "mail": "bewerbung@carus-digital.com",
+        "jobdescription": "Frontend Developer",
+        "applicationHeader": "Sehr geehrtes Carus Digital-Team,",
+        "applicationLetter": "auf der Suche nach einer neuen beruflichen Herausforderung bin ich auf Ihre Stellenausschreibung als Frontend Developer gestoßen. Die Aussicht, mit modernen Technologien wie Vue.js und React an spannenden IT-Projekten zu arbeiten und eigene Ideen einzubringen, spricht mich sehr an.\n\nNach meinem Bachelorabschluss in Medieninformatik und Interaktives Entertainment 2018 sammelte ich praktische Erfahrungen bei Expertplace Solutions GmbH in Leipzig, wo ich mit JavaScript, Knockout.js, Angular und ASP.NET Core arbeitete. 2021 vertiefte ich mein Wissen durch eine Weiterbildung bei Alfatraining mit Fokus auf JavaScript, Node.js, Vue.js und React.\n\nSeit April 2021 bin ich als Webentwickler bei Assist Digital in Leipzig tätig. Mein Schwerpunkt liegt auf der Frontend-Entwicklung mit Vue.js, JavaScript und TypeScript sowie der Backend-Integration mit SQL und .NET. Ich lege großen Wert auf sauberen, modularen Code und eine optimale User Experience.\n\nIch freue mich darauf, meine Erfahrungen und mein Engagement in Ihr Team einzubringen und gemeinsam an innovativen Lösungen zu arbeiten. Über die Einladung zu einem persönlichen Gespräch freue ich mich sehr.",
+        "applied": false,
+        "succeeded": false,
+        "created": "2025-02-23T22:54:37.238Z",
+        "updated": "2025-02-23T22:54:37.238Z"
+      },
+      "loremIpsum_copy2": {
+        "company": "lorem ipsum",
+        "subinfo": "Corp",
+        "city": "Ipsum City",
+        "street": "Lorem Street 1",
+        "zip": "0815",
+        "phone": "123456789",
+        "mail": "lorem@ipsum.mail",
+        "jobdescription": "loremIpsum Manager",
+        "applicationHeader": "Sehr geehrte Damen und Herren,",
+        "applicationLetter": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. \nAt vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. \nLorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+        "applied": false,
+        "succeeded": false,
+        "created": "2025-02-25T21:05:28.500Z",
+        "updated": "2025-02-25T21:05:28.500Z",
+        "applicationDate": "2025-03-14"
+      },
+      "carusDigital_copy1": {
+        "company": "Carus Digital",
+        "subinfo": "GmbH",
+        "city": "Leipzig",
+        "street": "Melscher Straße 1",
+        "zip": "04299",
+        "phone": "+49 40 561 27 812",
+        "mail": "bewerbung@carus-digital.com",
+        "jobdescription": "Frontend Developer",
+        "applicationHeader": "Sehr geehrte Damen und Herren,",
+        "applicationLetter": "auf der Suche nach einer neuen beruflichen Herausforderung bin ich auf Ihre Stellenausschreibung als Frontend Developer gestoßen. Die Aussicht, mit modernen Technologien wie Vue.js und React an spannenden IT-Projekten zu arbeiten und eigene Ideen einzubringen, spricht mich sehr an.\n\nNach meinem Bachelorabschluss in Medieninformatik und Interaktives Entertainment 2018 sammelte ich praktische Erfahrungen bei Expertplace Solutions GmbH in Leipzig, wo ich mit JavaScript, Knockout.js, Angular und ASP.NET Core arbeitete. 2021 vertiefte ich mein Wissen durch eine Weiterbildung bei Alfatraining mit Fokus auf JavaScript, Node.js, Vue.js und React.\n\nSeit April 2021 bin ich als Webentwickler bei Assist Digital in Leipzig tätig. Mein Schwerpunkt liegt auf der Frontend-Entwicklung mit Vue.js, JavaScript und TypeScript sowie der Backend-Integration mit SQL und .NET. Ich lege großen Wert auf sauberen, modularen Code und eine optimale User Experience.\n\nIch freue mich darauf, meine Erfahrungen und mein Engagement in Ihr Team einzubringen und gemeinsam an innovativen Lösungen zu arbeiten. Über die Einladung zu einem persönlichen Gespräch freue ich mich sehr.",
+        "applied": false,
+        "succeeded": false,
+        "created": "2025-02-23T22:15:49.784Z",
+        "updated": "2025-02-23T22:31:35.330Z",
+        "applicationDate": "2025-02-28"
+      },
+      "carusDigital_copy2": {
+        "company": "Carus Digital",
+        "subinfo": "GmbH",
+        "city": "Leipzig",
+        "street": "Melscher Straße 1",
+        "zip": "04299",
+        "phone": "+49 40 561 27 812",
+        "mail": "bewerbung@carus-digital.com",
+        "jobdescription": "Frontend Developer",
+        "applicationHeader": "Sehr geehrtes Carus Digital-Team,",
+        "applicationLetter": "auf der Suche nach einer neuen beruflichen Herausforderung bin ich auf Ihre Stellenausschreibung als Frontend Developer gestoßen. Die Aussicht, mit modernen Technologien wie Vue.js und React an spannenden IT-Projekten zu arbeiten und eigene Ideen einzubringen, spricht mich sehr an.\n\nNach meinem Bachelorabschluss in Medieninformatik und Interaktives Entertainment 2018 sammelte ich praktische Erfahrungen bei Expertplace Solutions GmbH in Leipzig, wo ich mit JavaScript, Knockout.js, Angular und ASP.NET Core arbeitete. 2021 vertiefte ich mein Wissen durch eine Weiterbildung bei Alfatraining mit Fokus auf JavaScript, Node.js, Vue.js und React.\n\nSeit April 2021 bin ich als Webentwickler bei Assist Digital in Leipzig tätig. Mein Schwerpunkt liegt auf der Frontend-Entwicklung mit Vue.js, JavaScript und TypeScript sowie der Backend-Integration mit SQL und .NET. Ich lege großen Wert auf sauberen, modularen Code und eine optimale User Experience.\n\nIch freue mich darauf, meine Erfahrungen und mein Engagement in Ihr Team einzubringen und gemeinsam an innovativen Lösungen zu arbeiten. Über die Einladung zu einem persönlichen Gespräch freue ich mich sehr.",
+        "applied": false,
+        "succeeded": false,
+        "created": "2025-02-25T21:19:16.027Z",
+        "updated": "2025-02-25T21:19:16.027Z"
+      },
+      "carusDigital_copy1_copy1": {
+        "company": "Carus Digital",
+        "subinfo": "GmbH",
+        "city": "Leipzig",
+        "street": "Melscher Straße 1",
+        "zip": "04299",
+        "phone": "+49 40 561 27 812",
+        "mail": "bewerbung@carus-digital.com",
+        "jobdescription": "Frontend Developer",
+        "applicationHeader": "Sehr geehrte Damen und Herren,",
+        "applicationLetter": "auf der Suche nach einer neuen beruflichen Herausforderung bin ich auf Ihre Stellenausschreibung als Frontend Developer gestoßen. Die Aussicht, mit modernen Technologien wie Vue.js und React an spannenden IT-Projekten zu arbeiten und eigene Ideen einzubringen, spricht mich sehr an.\n\nNach meinem Bachelorabschluss in Medieninformatik und Interaktives Entertainment 2018 sammelte ich praktische Erfahrungen bei Expertplace Solutions GmbH in Leipzig, wo ich mit JavaScript, Knockout.js, Angular und ASP.NET Core arbeitete. 2021 vertiefte ich mein Wissen durch eine Weiterbildung bei Alfatraining mit Fokus auf JavaScript, Node.js, Vue.js und React.\n\nSeit April 2021 bin ich als Webentwickler bei Assist Digital in Leipzig tätig. Mein Schwerpunkt liegt auf der Frontend-Entwicklung mit Vue.js, JavaScript und TypeScript sowie der Backend-Integration mit SQL und .NET. Ich lege großen Wert auf sauberen, modularen Code und eine optimale User Experience.\n\nIch freue mich darauf, meine Erfahrungen und mein Engagement in Ihr Team einzubringen und gemeinsam an innovativen Lösungen zu arbeiten. Über die Einladung zu einem persönlichen Gespräch freue ich mich sehr.",
+        "applied": false,
+        "succeeded": false,
+        "created": "2025-02-25T21:20:26.367Z",
+        "updated": "2025-02-25T21:20:26.367Z",
+        "applicationDate": "2025-02-28"
+      },
+      "alfaview2_copy1": {
+        "company": "alfaview",
+        "subinfo": "GmbH",
+        "city": "Karlsruhe",
+        "street": "Kriegsstraße 100",
+        "zip": "76133",
+        "phone": "+49 721 35450-450",
+        "mail": "info@alfaview.com",
+        "jobdescription": "Frontend Developer",
+        "applicationHeader": "Sehr geehrtes alfaview-Team,",
+        "applicationLetter": "als erfahrener Frontend Developer mit über drei Jahren Erfahrung in der Entwicklung datengetriebener Webanwendungen freue ich mich sehr über die Möglichkeit, meine Expertise in JavaScript, Vue und React bei alfaview® einzubringen und an der Weiterentwicklung Ihrer wegweisenden Videokonferenzsoftware mitzuwirken.\nMein technisches Fundament habe ich durch eine umfangreiche Weiterbildung bei der alfatraining GmbH aufgebaut, bei der ich meine Kenntnisse in JavaScript, Vue und React nicht nur vertieft, sondern auch mit ausgezeichnetem Erfolg abgeschlossen habe. Diese intensive Ausbildung hat meinen hohen Anspruch an sauberen Code und nachhaltige Architekturen geprägt.\nIn meinen bisherigen Positionen habe ich responsive Designs mit CSS-Präprozessoren wie SCSS sowie moderne Webanwendungen unter Einsatz von Node.js-Tools (z. B. Webpack) und CI/CD-Praktiken entwickelt. Ich bin es gewohnt, in agilen Teams zu arbeiten und sehe eine abteilungsübergreifende Zusammenarbeit sowie die kontinuierliche Optimierung als wichtige Erfolgsfaktoren an.\nIch freue mich darauf, alfaview® durch meine Fähigkeiten und meinen Einsatz zu unterstützen und Teil eines Teams zu werden, das Innovation und Qualität in den Mittelpunkt stellt. Gerne stehe ich Ihnen für ein persönliches Gespräch zur Verfügung.",
+        "applied": false,
+        "succeeded": false,
+        "created": "2025-02-25T21:57:04.697Z",
+        "updated": "2025-03-02T11:03:34.845Z",
+        "applicationDate": "2024-03-06"
+      },
+      "MYPOSTER_copy1": {
+        "company": "myposter",
+        "subinfo": "GmbH",
+        "city": "Bergkirchen",
+        "street": "Breitenau 7",
+        "zip": "85232",
+        "phone": "08131 99997 319",
+        "mail": "jobs@myposter.de",
+        "jobdescription": "Web Frontend Entwickler",
+        "applicationHeader": "Sehr geehrte Damen und Herren,",
+        "applicationLetter": "als erfahrener Frontend-Entwickler mit Leidenschaft für moderne Webtechnologien begeistert mich Ihre Anzeige, vor allem die Aussicht, in einem agilen Team innovative Features zu entwickeln und spannende Herausforderungen mit Vue.js zu lösen.\nIn meinen bisherigen Projekten habe ich umfassende Erfahrung mit **HTML5, CSS3 und JavaScript (ES6+)** gesammelt, inklusive der Umsetzung responsiver Designs und performanter Webanwendungen. Besonders reizvoll finde ich bei MYPOSTER die Kombination aus technischem Anspruch – wie Server-Side-Rendering, Page-Speed-Optimierung und UX – sowie die Möglichkeit, eigenständig Ideen einzubringen.\nClean Code und nachhaltige Architektur sind mir ebenso wichtig wie ständiges Lernen. Die Aussicht auf Weiterbildungsangebote und spannende Technologien wie Jest, Cypress oder LogRocket decken sich mit meinem Wunsch, mich fachlich weiterzuentwickeln und zur Verbesserung moderner Webanwendungen beizutragen.\nIch freue mich, Ihnen in einem persönlichen Gespräch meine Begeisterung und mein Know-how näherzubringen.",
+        "applied": false,
+        "succeeded": false,
+        "created": "2025-02-25T21:59:14.744Z",
+        "updated": "2025-02-25T21:59:14.744Z"
+      },
+      "alfaview2_copy2": {
+        "company": "alfaview",
+        "subinfo": "GmbH",
+        "city": "Karlsruhe",
+        "street": "Kriegsstraße 100",
+        "zip": "76133",
+        "phone": "+49 721 35450-450",
+        "mail": "info@alfaview.com",
+        "jobdescription": "Frontend Developer",
+        "applicationHeader": "Sehr geehrte Damen und Herren,",
+        "applicationLetter": "als erfahrener Frontend Developer mit über drei Jahren Erfahrung in der Entwicklung datengetriebener Webanwendungen freue ich mich sehr über die Möglichkeit, meine Expertise in JavaScript, Vue und React bei alfaview® einzubringen und an der Weiterentwicklung Ihrer wegweisenden Videokonferenzsoftware mitzuwirken.\nMein technisches Fundament habe ich durch eine umfangreiche Weiterbildung bei der alfatraining GmbH aufgebaut, bei der ich meine Kenntnisse in JavaScript, Vue und React nicht nur vertieft, sondern auch mit ausgezeichnetem Erfolg abgeschlossen habe. Diese intensive Ausbildung hat meinen hohen Anspruch an sauberen Code und nachhaltige Architekturen geprägt.\nIn meinen bisherigen Positionen habe ich responsive Designs mit CSS-Präprozessoren wie SCSS sowie moderne Webanwendungen unter Einsatz von Node.js-Tools (z. B. Webpack) und CI/CD-Praktiken entwickelt. Ich bin es gewohnt, in agilen Teams zu arbeiten und sehe eine abteilungsübergreifende Zusammenarbeit sowie die kontinuierliche Optimierung als wichtige Erfolgsfaktoren an.\nIch freue mich darauf, alfaview® durch meine Fähigkeiten und meinen Einsatz zu unterstützen und Teil eines Teams zu werden, das Innovation und Qualität in den Mittelpunkt stellt. Gerne stehe ich Ihnen für ein persönliches Gespräch zur Verfügung.",
+        "applied": false,
+        "succeeded": false,
+        "created": "2025-03-02T10:26:02.279Z",
+        "updated": "2025-03-02T19:03:53.215Z",
+        "applicationDate": "2024-02-28"
+      },
+      "MYPOSTER_copy1_copy1": {
+        "company": "myposter",
+        "subinfo": "GmbH",
+        "city": "Bergkirchen",
+        "street": "Breitenau 7",
+        "zip": "85232",
+        "phone": "08131 99997 319",
+        "mail": "jobs@myposter.de",
+        "jobdescription": "Web Frontend Entwickler",
+        "applicationHeader": "Sehr geehrte Damen und Herren,",
+        "applicationLetter": "als erfahrener Frontend-Entwickler mit Leidenschaft für moderne Webtechnologien begeistert mich Ihre Anzeige, vor allem die Aussicht, in einem agilen Team innovative Features zu entwickeln und spannende Herausforderungen mit Vue.js zu lösen.\nIn meinen bisherigen Projekten habe ich umfassende Erfahrung mit **HTML5, CSS3 und JavaScript (ES6+)** gesammelt, inklusive der Umsetzung responsiver Designs und performanter Webanwendungen. Besonders reizvoll finde ich bei MYPOSTER die Kombination aus technischem Anspruch – wie Server-Side-Rendering, Page-Speed-Optimierung und UX – sowie die Möglichkeit, eigenständig Ideen einzubringen.\nClean Code und nachhaltige Architektur sind mir ebenso wichtig wie ständiges Lernen. Die Aussicht auf Weiterbildungsangebote und spannende Technologien wie Jest, Cypress oder LogRocket decken sich mit meinem Wunsch, mich fachlich weiterzuentwickeln und zur Verbesserung moderner Webanwendungen beizutragen.\nIch freue mich, Ihnen in einem persönlichen Gespräch meine Begeisterung und mein Know-how näherzubringen.",
+        "applied": false,
+        "succeeded": false,
+        "created": "2025-03-02T19:15:17.160Z",
+        "updated": "2025-03-02T19:15:17.160Z"
+      },
+      "newKey": {
+        "company": "newCompany",
+        "subinfo": "Corp",
+        "city": "Test",
+        "street": "Test",
+        "zip": "010101",
+        "phone": "01010101",
+        "mail": "test@test.test",
+        "jobdescription": "Tester",
+        "applicationHeader": "Sehr geehrtes newCompany-Team,",
+        "applicationLetter": "Ich bewerbe mich\nals Tester\n\nmfg\nMe",
+        "applied": false,
+        "succeeded": false,
+        "created": "2025-03-02T19:20:28.071Z",
+        "updated": "2025-03-02T19:41:21.774Z"
+      }
+    },
+    "current": "newKey_copy1_copy1"
+  }
+}
