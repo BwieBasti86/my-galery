@@ -277,8 +277,8 @@ export default {
       });
     },
     async saveProfile(companyProfile) {
-      this.$root.proccess({
-        callback: api.saveProfile(companyProfile),
+      this.$root.handleRequest({
+        callback: ()=> api.saveProfile(companyProfile),
         message: "Änderungen werden gespeichert",
       });
     },

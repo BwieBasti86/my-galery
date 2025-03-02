@@ -181,12 +181,12 @@ export default {
       this.$root.toast({
         text: `Soll wirklich eine Kopie von ${item.companyId} erstellt werden?`,
         color: "error",
-        callback: async () => {
-          await this.saveProfileCopy(item);
+        callback: () => {
+          this.saveProfileCopy(item);
         },
       });
     },
-    async saveProfileCopy(item) {
+    saveProfileCopy(item) {
       const keyorigin = item.companyId;
       let copyKey = `${keyorigin}_copy${count}`;
       let count = 0;
@@ -195,7 +195,7 @@ export default {
         copyKey = `${keyorigin}_copy${count}`;
       } while (this.companyKeys.includes(copyKey));
       item.companyId = copyKey;
-      await this.saveProfile(item, true);
+      this.saveProfile(item, true);
     },
     handleDeleteClick(item) {
       this.$root.toast({
@@ -225,21 +225,21 @@ export default {
       this.dialog.title = item.company;
       this.dialog.active = true;
     },
-    async updateCurrent(item) {
-      this.$root.proccess({
-        callback: api.updateCurrent(item.companyId),
+    updateCurrent(item) {
+      this.$root.handleRequest({
+        callback: ()=> api.updateCurrent(item.companyId),
         message: "Setze aktuelles Anschreiben: " + item.company,
       });
     },
-    async deleteProfile(item) {
-      this.$root.proccess({
-        callback: api.deleteProfile(item.companyId),
+    deleteProfile(item) {
+      this.$root.handleRequest({
+        callback: ()=> api.deleteProfile(item.companyId),
         message: "Lösche Anschreiben: " + item.company,
       });
     },
     async saveProfile(item, isCopy) {
-      this.$root.proccess({
-        callback: api.saveProfile(item),
+      this.$root.handleRequest({
+        callback: ()=> api.saveProfile(item),
         message:
           `${
             isCopy ? "Erstelle Kopie von: " : "Änderungen werden gespeichert: "

@@ -15,8 +15,8 @@ export default {
       console.log(e);
     },
     async saveProfile(companyProfile) {
-      this.$root.proccess({
-        callback: api.saveProfile(companyProfile),
+      this.$root.handleRequest({
+        callback: ()=> api.saveProfile(companyProfile),
         message: "Neues Anschreiben wird angelegt",
       });
       

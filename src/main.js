@@ -40,7 +40,7 @@ new Vue({
     toast(options) {
       this.$emit("toast", options);
     },
-    async proccess(options){
+    async handleRequest(options){
       let result = undefined;
       this.loading({active:true,message:options.message})
       result = await options.callback()
